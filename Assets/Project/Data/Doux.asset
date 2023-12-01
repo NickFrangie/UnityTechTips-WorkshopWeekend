@@ -14,4 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterName: Doux
   animatorController: {fileID: 9100000, guid: 4e153bfec12c78c4ebf344776c1c5923, type: 2}
+  image: {fileID: 1824130840, guid: a72d44a480c6ab540bd98ae24a947508, type: 3}
   moveSpeed: 7.5

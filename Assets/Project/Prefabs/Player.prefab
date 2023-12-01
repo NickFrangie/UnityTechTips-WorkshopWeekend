@@ -10,7 +10,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1182741418494967372, guid: e83be69a803803447859dd56e96909ed, type: 3}
       propertyPath: m_Name
-      value: Doux
+      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 4740406323644053070, guid: e83be69a803803447859dd56e96909ed, type: 3}
       propertyPath: m_LocalPosition.x
@@ -52,14 +52,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7431203385404687011, guid: e83be69a803803447859dd56e96909ed, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 1824130840, guid: a72d44a480c6ab540bd98ae24a947508, type: 3}
-    - target: {fileID: 7574562662030606823, guid: e83be69a803803447859dd56e96909ed, type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: 4e153bfec12c78c4ebf344776c1c5923, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -85,4 +77,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: edb62974c13489743a1e430f757c36f3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 7.5
+  moveSpeed: 4
+  characterData: {fileID: 11400000, guid: 4bb5f653daf8461408907966f98ec9c9, type: 2}

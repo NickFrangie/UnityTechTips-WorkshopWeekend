@@ -15,6 +15,7 @@ namespace Project.Character
         
         [Header("Graphics")]
         public RuntimeAnimatorController animatorController;
+        public Sprite image;
         
         [Header("Gameplay")]
         public float moveSpeed = 5f;

@@ -14,4 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterName: Mort
   animatorController: {fileID: 22100000, guid: e6ab0c47563d3414e9f868c2133f65ec, type: 2}
+  image: {fileID: 1824130840, guid: a8f5059bae1a1804f87da5520aa5fe7e, type: 3}
   moveSpeed: 4

@@ -20,17 +20,19 @@ namespace Project.Player
         // References
         private Rigidbody2D rigidbody2D;
         private Animator animator;
+        private SpriteRenderer spriteRenderer;
 
         
-        private void Awake()
+        public void Awake()
         {
             rigidbody2D = GetComponent<Rigidbody2D>();
             animator = GetComponent<Animator>();
+            spriteRenderer = GetComponentInChildren<SpriteRenderer>();
         }
 
         private void Start()
         {
-            SetData(characterData);
+            SetData();
         }
 
         private void FixedUpdate()
@@ -54,6 +56,15 @@ namespace Project.Player
         //     if (characterData) SetData(characterData);
         // }
 
+        #region Character Data
+        /// <summary>
+        /// Sets the player's data, updating the controller's corresponding properties.
+        /// </summary>
+        public void SetData()
+        {
+            SetData(characterData);
+        }
+        
         /// <summary>
         /// Sets the player's data, updating the controller's corresponding properties.
         /// </summary>
@@ -61,9 +72,10 @@ namespace Project.Player
         public void SetData(CharacterData data)
         {
             characterData = data;
-            name = data.characterName;
             moveSpeed = data.moveSpeed;
             animator.runtimeAnimatorController = data.animatorController;
+            spriteRenderer.sprite = data.image;
         }
+        #endregion
     }
 }
