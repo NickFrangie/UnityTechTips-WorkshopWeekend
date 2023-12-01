@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Vita
+  m_Controller: {fileID: 9100000, guid: 4e153bfec12c78c4ebf344776c1c5923, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 08a6c3794be4a8e4eb60ee1bdb1652e6, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: d0365690f6b74f24da8ad602559c8710, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 6d24f4bea2f19fb45b94ae266b8b96c3, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 9ac3118e9858fa54c9e3bf76d8a6050d, type: 2}

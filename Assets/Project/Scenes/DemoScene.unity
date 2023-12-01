@@ -1007,7 +1007,7 @@ TilemapCollider2D:
   m_MaximumTileChangeCount: 1000
   m_ExtrusionFactor: 0
   m_UseDelaunayMesh: 0
---- !u!1001 &6366574824485459709
+--- !u!1001 &1909540764
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -1017,11 +1017,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2777092815065374043, guid: 7d16203db76a02b49a20eccd9fb11085, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -0.49361944
       objectReference: {fileID: 0}
     - target: {fileID: 2777092815065374043, guid: 7d16203db76a02b49a20eccd9fb11085, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.985
+      value: -3.9535623
       objectReference: {fileID: 0}
     - target: {fileID: 2777092815065374043, guid: 7d16203db76a02b49a20eccd9fb11085, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1057,7 +1057,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8586825523745510745, guid: 7d16203db76a02b49a20eccd9fb11085, type: 3}
       propertyPath: m_Name
-      value: Doux
+      value: Player
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1071,5 +1071,5 @@ SceneRoots:
   - {fileID: 519420032}
   - {fileID: 619412079}
   - {fileID: 833200325}
-  - {fileID: 6366574824485459709}
   - {fileID: 516829981}
+  - {fileID: 1909540764}
