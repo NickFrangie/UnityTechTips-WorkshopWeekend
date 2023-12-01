@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 538566885998046404}
   - component: {fileID: 7431203385404687011}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: GFX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -97,7 +97,7 @@ GameObject:
   - component: {fileID: 7574562662030606823}
   - component: {fileID: 6660787153350320575}
   - component: {fileID: 4360818937872406945}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Doux
   m_TagString: Untagged
   m_Icon: {fileID: 0}
