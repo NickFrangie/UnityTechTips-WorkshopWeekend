@@ -950,7 +950,7 @@ TilemapCollider2D:
   m_MaximumTileChangeCount: 1000
   m_ExtrusionFactor: 0
   m_UseDelaunayMesh: 0
---- !u!1001 &7472318043357166130
+--- !u!1001 &2017893052
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -1014,4 +1014,4 @@ SceneRoots:
   - {fileID: 519420032}
   - {fileID: 619412079}
   - {fileID: 833200325}
-  - {fileID: 7472318043357166130}
+  - {fileID: 2017893052}
