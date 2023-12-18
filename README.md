@@ -14,7 +14,9 @@ This demostration showcased various techniques for intermediate Unity developers
 
 ## Branches
 The **main** branch contains the starter code for the demo.
+
 The **final** branch contains the completed code, prepared ahead of the demo.
+
 The **live** branch contains the completed code, as created from the demo.
 
 ## Resources
